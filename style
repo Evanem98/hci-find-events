@@ -1,0 +1,64 @@
+body {
+    background-color: #093145;
+}
+
+h1{
+    color: white;
+    text-decoration: underline;
+}
+
+ul.a {
+	color: white;
+	list-style-image: url('ThanosIcon.jpg');
+	list-style-position: inside;
+}
+
+ul li {
+	padding: 15px;
+	border: 1px double #6F7C80;
+	margin-top: 30px;
+	margin-left: -30px;
+}
+
+ul li:hover {
+	background-color: #BCA136;
+	border: 3px double #6F7C80;
+}
+
+p {
+	color: #BCA136;
+}
+
+p.a {
+	font-size: 130%;
+}
+
+p.b {
+	font-size: 80%;
+	text-decoration: underline;
+	text-align: right;
+}
+
+p.b:hover {
+	color: #EBC944;
+}
+
+.column {
+    float: left;
+    text-align: left;
+    padding: 5% 10%;
+}
+
+.left, .right {
+  width: 30%;
+}
+
+.middle {
+	width: 40%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
